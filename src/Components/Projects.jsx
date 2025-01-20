@@ -3,6 +3,10 @@ import  { useState } from 'react';
 import { ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
 import ProjectCard from './ProjectCart';
 import Wearhub from '../../public/Wearhub.png'
+import crimereporting from '../../public/crimereporting.png'
+import Creative from '../../public/Creative Agency.png'
+import beyond from '../../public/beyond.png'
+import AllInOne from '../../public/AllInOne.png'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
  
@@ -17,7 +21,7 @@ useEffect(()=>{
         id: 1,
         title: "Wearhub",
         category: "Web Development",
-        image:'../../public/Wearhub.png',
+        image:Wearhub,
         description: "Full-stack e-commerce Website Where Users Can order products in realtime  ",
         technologies: ["React", "Node.js", "MongoDB", "Tailwind css"],
         githubLink: "https://github.com/anasparacha85/Wearhub",
@@ -27,7 +31,7 @@ useEffect(()=>{
         id: 2,
         title: "Crime Reporting System w.r.t City & Types",
         category: "Machine Learning",
-        image: "../../public/crimereporting.png",
+        image: crimereporting,
         description: "A full Stack App including Authentication ,submit crimes,see reported crimes by filtering",
         technologies: ["Java",  "Spring Boot","MySQL", "React"],
         githubLink: "https://github.com/anasparacha85/CrimeReportingSystem",
@@ -37,7 +41,7 @@ useEffect(()=>{
         id: 3,
         title: "Creative Agency",
         category: "Data Visualization",
-        image: "../../public/Creative Agency.png",
+        image: Creative,
         description: "It is a modern designed Front End Website",
         technologies: ["React", "AOS", "Tailwind"],
         githubLink: "https://github.com",
@@ -47,7 +51,7 @@ useEffect(()=>{
         id: 4,
         title: "beyond",
         category: "Mobile Development",
-        image: "../../public/beyond.png",
+        image: beyond,
         description: "Beyond is a modern front End Ecommerce App without any functionality",
         technologies: ["React js", "Tailwind", ],
         githubLink: "https://github.com",
@@ -57,7 +61,7 @@ useEffect(()=>{
         id: 5,
         title: "All In One",
         category: "Mobile Development",
-        image: "../../public/AllInOne.png",
+        image: AllInOne,
         description: "All In One is a  front End Sales Store to show my frontEnd integration skills",
         technologies: ["React js", "Tailwind","AOS" ],
         githubLink: "https://github.com/anasparacha85/all-in-one-react",
