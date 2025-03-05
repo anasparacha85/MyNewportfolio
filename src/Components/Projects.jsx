@@ -7,6 +7,7 @@ import crimereporting from '../../public/crimereporting.png'
 import Creative from '../../public/Creative Agency.png'
 import beyond from '../../public/beyond.png'
 import AllInOne from '../../public/AllInOne.png'
+import Interhhub from '../../public/Interhhub.png'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
  
@@ -19,6 +20,16 @@ useEffect(()=>{
     const projects = [
       {
         id: 1,
+        title: "InternHub",
+        category: "Mobile Development",
+        image: Interhhub,
+        description: "InternHub is an Online Job as well as learning platform where Users can search for jobs and also apply for it as well as enroll in courses ",
+        technologies: ["Node js","Express js","Passport js","React js", "Tailwind","AOS" ],
+        githubLink: "https://github.com/anasparacha85/InternnHub",
+        liveLink: "https://front-9ygw8hof3-anasparacha85s-projects.vercel.app/"
+      },
+      {
+        id: 2,
         title: "Wearhub",
         category: "Web Development",
         image:Wearhub,
@@ -28,7 +39,7 @@ useEffect(()=>{
         
       },
       {
-        id: 2,
+        id: 3,
         title: "Crime Reporting System w.r.t City & Types",
         category: "Machine Learning",
         image: crimereporting,
@@ -38,7 +49,7 @@ useEffect(()=>{
         
       },
       {
-        id: 3,
+        id: 4,
         title: "Creative Agency",
         category: "Data Visualization",
         image: Creative,
@@ -48,7 +59,7 @@ useEffect(()=>{
         liveLink: "https://bloodline-iota.vercel.app/"
       },
       {
-        id: 4,
+        id: 5,
         title: "beyond",
         category: "Mobile Development",
         image: beyond,
@@ -58,7 +69,7 @@ useEffect(()=>{
         liveLink: "https://beyond-seven.vercel.app/"
       },
       {
-        id: 5,
+        id: 6,
         title: "All In One",
         category: "Mobile Development",
         image: AllInOne,
@@ -66,7 +77,8 @@ useEffect(()=>{
         technologies: ["React js", "Tailwind","AOS" ],
         githubLink: "https://github.com/anasparacha85/all-in-one-react",
         liveLink: "https://all-in-one-gamma.vercel.app/"
-      }
+      },
+    
     ];
   
     const nextSlide = () => {

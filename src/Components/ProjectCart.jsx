@@ -31,6 +31,7 @@ const ProjectCard = ({ project }) => (
           <a 
             href={project.liveLink}
             className="flex items-center gap-2 text-gray-300 hover:text-yellow-500 transition-colors"
+            target='blank'
           >
             <ExternalLink size={20} />
             {!project.liveLink?<span>Not Deployed</span>:<span>Live Demo</span>}  

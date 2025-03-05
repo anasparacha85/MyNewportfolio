@@ -49,7 +49,7 @@ const HomePage = () => {
           </p>
           <div className="mt-6 flex justify-center lg:justify-start">
             <button className="px-6 py-3 text-white font-medium text-lg rounded-[30px] shadow-md border-2 border-solid border-white flex items-center relative overflow-hidden group">
-              <span className="relative z-10"><Link to='/about'>More About Me</Link></span>
+              <span className="relative z-10 "><Link to='/about'>More About Me</Link></span>
               <span className="relative z-10 ml-2">
                 <FaArrowRight />
               </span>
