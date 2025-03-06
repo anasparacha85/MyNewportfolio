@@ -26,7 +26,8 @@ useEffect(()=>{
         description: "InternHub is an Online Job as well as learning platform where Users can search for jobs and also apply for it as well as enroll in courses ",
         technologies: ["Node js","Express js","Passport js","React js", "Tailwind","AOS" ],
         githubLink: "https://github.com/anasparacha85/InternnHub",
-        liveLink: "https://interneefrontend-baqryo57d-anasparacha85s-projects.vercel.app/"
+        liveLink: "front-end-ten-tawny.vercel.app"
+
       },
       {
         id: 2,
