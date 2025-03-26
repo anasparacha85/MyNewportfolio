@@ -8,6 +8,7 @@ import Creative from '../../public/Creative Agency.png'
 import beyond from '../../public/beyond.png'
 import AllInOne from '../../public/AllInOne.png'
 import Interhhub from '../../public/Interhhub.png'
+import interneeimage from '../../public/interneeimage.png'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
  
@@ -20,6 +21,17 @@ useEffect(()=>{
     const projects = [
       {
         id: 1,
+        title: "Full stack Internee.pk WebApp",
+        category: "Web Development",
+        image: interneeimage,
+        description: "Internee.pk is an Online Job as well as SKills Learning platform which includes users to apply for jobs ,enroll in courses,Admin to post manage and delete users jobs and instructors",
+        technologies: ["Node js","Express js","Passport js","React js", "Tailwind","AOS" ],
+        githubLink: "https://github.com/anasparacha85/AnasInternee.pk",
+        liveLink: "https://anas-internee-pk.vercel.app/"
+
+      },
+      {
+        id: 2,
         title: "InternHub",
         category: "Mobile Development",
         image: Interhhub,
@@ -30,27 +42,7 @@ useEffect(()=>{
 
       },
       {
-        id: 2,
-        title: "Wearhub",
-        category: "Web Development",
-        image:Wearhub,
-        description: "Full-stack e-commerce Website Where Users Can order products in realtime  ",
-        technologies: ["React", "Node.js", "MongoDB", "Tailwind css"],
-        githubLink: "https://github.com/anasparacha85/Wearhub",
-        
-      },
-      {
         id: 3,
-        title: "Crime Reporting System w.r.t City & Types",
-        category: "Machine Learning",
-        image: crimereporting,
-        description: "A full Stack App including Authentication ,submit crimes,see reported crimes by filtering",
-        technologies: ["Java",  "Spring Boot","MySQL", "React"],
-        githubLink: "https://github.com/anasparacha85/CrimeReportingSystem",
-        
-      },
-      {
-        id: 4,
         title: "Creative Agency",
         category: "Data Visualization",
         image: Creative,
@@ -60,15 +52,39 @@ useEffect(()=>{
         liveLink: "https://bloodline-iota.vercel.app/"
       },
       {
-        id: 5,
+        id: 4,
         title: "beyond",
-        category: "Mobile Development",
+        category: "Web Development",
         image: beyond,
         description: "Beyond is a modern front End Ecommerce App without any functionality",
         technologies: ["React js", "Tailwind", ],
         githubLink: "https://github.com",
         liveLink: "https://beyond-seven.vercel.app/"
       },
+      {
+        id: 5,
+        title: "Wearhub",
+        category: "Web Development",
+        image:Wearhub,
+        description: "Full-stack e-commerce Website Where Users Can order products in realtime  ",
+        technologies: ["React", "Node.js", "MongoDB", "Tailwind css"],
+        githubLink: "https://github.com/anasparacha85/Wearhub",
+        
+      },
+      
+    
+      {
+        id: 6,
+        title: "Crime Reporting System w.r.t City & Types",
+        category: "Machine Learning",
+        image: crimereporting,
+        description: "A full Stack App including Authentication ,submit crimes,see reported crimes by filtering",
+        technologies: ["Java",  "Spring Boot","MySQL", "React"],
+        githubLink: "https://github.com/anasparacha85/CrimeReportingSystem",
+        
+      },
+     
+      
       {
         id: 6,
         title: "All In One",

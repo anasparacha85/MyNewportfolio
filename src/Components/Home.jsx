@@ -5,6 +5,7 @@ import dark from '../../public/darkavatar.jpg';
 
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import SplitText from '../Animation/SplitText';
 
 
 const HomePage = () => {
@@ -39,14 +40,22 @@ const HomePage = () => {
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold mt-2">
             A Full Stack Web Developer
           </h2>
-          <p className="mt-4 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-            I'm a passionate full stack developer with a focus on the MERN stack 
-            (MongoDB, Express, React, Node.js). With hands-on experience from 
-            internships in front-end development, I specialize in building 
-            responsive and user-friendly web applications. I thrive on crafting 
-            solutions that not only meet technical requirements but also provide 
-            an engaging user experience.
-          </p>
+          <SplitText
+  text="  I'm a passionate Full Stack Developer with a strong focus on the MERN stack (MongoDB, Express, React, Node.js). With hands-on experience from frontend development internships and a MERN stack internship, I have developed a deep understanding of building scalable, responsive, and high-performance web applications.
+
+I specialize in crafting modern, intuitive, and engaging user interfaces using React.js,Nextjs and Tailwind CSS, ensuring seamless user experiences. Beyond frontend, I have hands-on experience working with Node.js and Express.js, implementing RESTful APIs, authentication systems, and database management with MongoDB to create full-stack applications.
+
+My approach goes beyond just writing code—I focus on optimizing performance, improving accessibility, and developing efficient solutions that align with business needs. Whether it's developing interactive UIs, building scalable backend architectures, or integrating APIs, I am always eager to take on challenges and contribute to impactful projects."
+ className="mt-4 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0"
+  delay={40}
+  animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+  animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+  easing="easeOutCubic"
+  threshold={0.2}
+  rootMargin="-50px"
+ 
+/>
+        
           <div className="mt-6 flex justify-center lg:justify-start">
             <button className="px-6 py-3 text-white font-medium text-lg rounded-[30px] shadow-md border-2 border-solid border-white flex items-center relative overflow-hidden group">
               <span className="relative z-10 "><Link to='/about'>More About Me</Link></span>
