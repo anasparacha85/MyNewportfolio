@@ -47,7 +47,7 @@ const AboutMe = () => {
           <div className="space-y-6" data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
-            <h3 className="text-2xl font-bold mb-6 text-black">PERSONAL INFOS</h3>
+            <h3 className="text-2xl font-bold mb-6 text-yellow-500">PERSONAL INFOS</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {Object.entries(personalInfo).map(([key, value]) => (
                 <div key={key} className="space-y-1">

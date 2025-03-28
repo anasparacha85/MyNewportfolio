@@ -1,7 +1,7 @@
 import React from 'react'
 import { ExternalLink } from 'lucide-react';
 const ProjectCard = ({ project }) => (
-    <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-lg overflow-hidden transition-all duration-300 hover:transform hover:scale-105">
+    <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 hover:shadow-2xl hover:shadow-yellow-400 hover:border-yellow-300 rounded-lg overflow-hidden transition-all duration-300 hover:transform hover:scale-105">
       <img 
         src={project.image} 
         alt={project.title} 

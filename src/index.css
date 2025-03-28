@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+#home{
+    background-color:  linear-gradient(120deg, #facc15 20%, #040508f6 08%)
+}

@@ -30,6 +30,17 @@ useEffect(()=>{
         liveLink: "https://anas-internee-pk.vercel.app/"
 
       },
+    
+      {
+        id: 3,
+        title: "Creative Agency",
+        category: "Data Visualization",
+        image: Creative,
+        description: "It is a modern designed Front End Website",
+        technologies: ["React", "AOS", "Tailwind"],
+        githubLink: "https://github.com",
+        liveLink: "https://bloodline-iota.vercel.app/"
+      },
       {
         id: 2,
         title: "InternHub",
@@ -40,16 +51,6 @@ useEffect(()=>{
         githubLink: "https://github.com/anasparacha85/InternnHub",
         liveLink: "https://internn-hub-frontend.vercel.app"
 
-      },
-      {
-        id: 3,
-        title: "Creative Agency",
-        category: "Data Visualization",
-        image: Creative,
-        description: "It is a modern designed Front End Website",
-        technologies: ["React", "AOS", "Tailwind"],
-        githubLink: "https://github.com",
-        liveLink: "https://bloodline-iota.vercel.app/"
       },
       {
         id: 4,
@@ -123,7 +124,7 @@ useEffect(()=>{
 
     
             {/* Desktop Grid View */}
-            <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
               {projects.map((project) => (
                 <ProjectCard key={project.id} project={project} />
               ))}
