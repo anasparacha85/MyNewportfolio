@@ -18,8 +18,8 @@ const HomePage = () => {
 
   return (
     <div  className='custom-bg min-h-screen overflow-x-hidden'>
-    <div className="min-h-screen flex items-center justify-center p-4 sm:p-6 lg:p-8 custom-bg">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-8 py-12">
+    <div className="min-h-screen flex items-center justify-center p-2 sm:p-6 lg:p-8 custom-bg">
+      <div className="container mx-0 flex flex-col lg:flex-row items-center justify-between gap-8 py-12">
         {/* Left Side: Image */}
         <div 
           className="flex-1 w-full lg:w-1/2 px-4 sm:px-6 lg:px-8" 
@@ -35,7 +35,7 @@ const HomePage = () => {
         </div>
 
         {/* Right Side: Content */}
-        <div className="flex-1 w-full lg:w-1/2 px-4 sm:px-6 lg:px-8 text-center lg:text-left text-white" data-aos="fade-left"
+        <div className="flex-1 w-full lg:w-1/2 px-1  lg:px-8 text-center lg:text-left text-white" data-aos="fade-left"
     data-aos-easing="ease-out-cubic"
     data-aos-duration="1500">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
@@ -44,10 +44,10 @@ const HomePage = () => {
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold mt-2">
             A Full Stack Web Developer
           </h2>
-          <p  className="mt-4 text-[18px]  leading-relaxed max-w-2xl mx-auto lg:mx-0">
+          <p  className="mt-4 text-[16px] lg:text-[18px]    lg:mx-0">
    I'm a passionate Full Stack Developer with a strong focus on the MERN stack (MongoDB, Express, React, Node.js). With hands-on experience from frontend development internships and a MERN stack internship, I have developed a deep understanding of building scalable, responsive, and high-performance web applications.
 
-I specialize in crafting modern, intuitive, and engaging user interfaces using React.js,Nextjs and Tailwind CSS, ensuring seamless user experiences. Beyond frontend, I have hands-on experience working with Node.js and Express.js, implementing RESTful APIs, authentication systems, and database management with MongoDB to create full-stack applications.
+I specialize in crafting modern, intuitive, and engaging user interfaces using React.js,Nextjs and Tailwind CSS, ensuring seamless user experiences. <br /><br /> Beyond frontend, I have hands-on experience working with Node.js and Express.js, implementing RESTful APIs, authentication systems, and database management with MongoDB to create full-stack applications.
 
 My approach goes beyond just writing code—I focus on optimizing performance, improving accessibility, and developing efficient solutions that align with business needs. Whether it's developing interactive UIs, building scalable backend architectures, or integrating APIs, I am always eager to take on challenges and contribute to impactful projects."
 

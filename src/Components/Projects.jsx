@@ -74,29 +74,9 @@ useEffect(()=>{
       },
       
     
-      {
-        id: 6,
-        title: "Crime Reporting System w.r.t City & Types",
-        category: "Machine Learning",
-        image: crimereporting,
-        description: "A full Stack App including Authentication ,submit crimes,see reported crimes by filtering",
-        technologies: ["Java",  "Spring Boot","MySQL", "React"],
-        githubLink: "https://github.com/anasparacha85/CrimeReportingSystem",
-        
-      },
-     
+  
       
-      {
-        id: 6,
-        title: "All In One",
-        category: "Mobile Development",
-        image: AllInOne,
-        description: "All In One is a  front End Sales Store to show my frontEnd integration skills",
-        technologies: ["React js", "Tailwind","AOS" ],
-        githubLink: "https://github.com/anasparacha85/all-in-one-react",
-        liveLink: "https://all-in-one-gamma.vercel.app/"
-      },
-    
+     
     ];
   
     const nextSlide = () => {
