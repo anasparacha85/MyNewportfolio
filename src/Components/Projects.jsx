@@ -10,6 +10,7 @@ import AllInOne from '../../public/AllInOne.png'
 import Interhhub from '../../public/Interhhub.png'
 import interneeimage from '../../public/interneeimage.png'
 import Aos from 'aos';
+import Image from '../../public/image.png'
 import 'aos/dist/aos.css'
  
 const Projects = () => {
@@ -30,6 +31,17 @@ useEffect(()=>{
         liveLink: "https://anas-internee-pk.vercel.app/"
 
       },
+      {
+        id: 2,
+        title: "SkillHub",
+        category: "Mobile Development",
+        image: Image,
+        description: "SkillHub is an Online Skill  learning platform where Users can   enroll in courses ",
+        technologies: ["Node js","Express js","Passport js","React js", "Tailwind","AOS" ],
+        githubLink: "https://github.com/anasparacha85/InternnHub",
+        liveLink: "https://skillhub-woad.vercel.app/"
+
+      },
     
       {
         id: 3,
@@ -41,17 +53,7 @@ useEffect(()=>{
         githubLink: "https://github.com",
         liveLink: "https://bloodline-iota.vercel.app/"
       },
-      {
-        id: 2,
-        title: "InternHub",
-        category: "Mobile Development",
-        image: Interhhub,
-        description: "InternHub is an Online Job as well as learning platform where Users can search for jobs and also apply for it as well as enroll in courses ",
-        technologies: ["Node js","Express js","Passport js","React js", "Tailwind","AOS" ],
-        githubLink: "https://github.com/anasparacha85/InternnHub",
-        liveLink: "https://internn-hub-frontend.vercel.app"
-
-      },
+      
       {
         id: 4,
         title: "beyond",

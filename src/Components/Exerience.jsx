@@ -23,6 +23,7 @@ const Timeline = () => {
           "Currently doing Bachelors in Software Engineering from sir syed University of Engineering & Technology with a CGPA of 3.61",
         icon: "education",
       },
+      
     {
       year: "Oct 2024-Dec-2024",
       role: "FRONT END WEB DEVELOPER Intern",
@@ -37,6 +38,14 @@ const Timeline = () => {
       company: "Devsiom Technologies",
       description:
         "Currently working on a project related to devsion technologies on a 2 month contract.",
+      icon: "work",
+    },
+    {
+      year: "feb 2025-present",
+      role: "MERN Stack DEVELOPER Intern",
+      company: "Internee.pk",
+      description:
+        "Currently working as a Mern Stack Developer Intern at Internee.pk where i contributes toward innovative projects confidently and sharply.",
       icon: "work",
     },
     

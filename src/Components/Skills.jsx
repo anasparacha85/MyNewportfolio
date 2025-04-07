@@ -7,12 +7,17 @@ const skills = [
   { name: "CSS", percentage: 60 },
   { name: "TailwindCss", percentage: 71 },
   { name: "Reactjs", percentage: 71 },
+  { name: "Nextjs", percentage: 41 },
   { name: "Nodejs", percentage: 63 },
   { name: "Mongodb", percentage: 66 },
-  { name: "SQL", percentage: 73 },
+  { name: "SQL Server", percentage: 73 },
   { name: "mysql", percentage: 73 },
   { name: "java ", percentage: 61 },
   { name: "Spring boot", percentage: 55 },
+  { name: "FireBase", percentage: 45 },
+  { name: "GitHub", percentage: 65 },
+  { name: "Vercel", percentage: 45 },
+  
  
 ];
 
