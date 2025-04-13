@@ -22,10 +22,10 @@ useEffect(()=>{
     const projects = [
       {
         id: 1,
-        title: "Full stack Internee.pk WebApp",
+        title: "SKillTern WebApp",
         category: "Web Development",
         image: interneeimage,
-        description: "Internee.pk is an Online Job as well as SKills Learning platform which includes users to apply for jobs ,enroll in courses,Admin to post manage and delete users jobs and instructors",
+        description: "SKillTern is an Online Job as well as SKills Learning platform which includes users to apply for jobs ,enroll in courses,Admin to post manage and delete users jobs and instructors",
         technologies: ["Node js","Express js","Passport js","React js", "Tailwind","AOS" ],
         githubLink: "https://github.com/anasparacha85/AnasInternee.pk",
         liveLink: "https://anas-internee-pk.vercel.app/"
