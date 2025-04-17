@@ -32,6 +32,17 @@ useEffect(()=>{
 
       },
       {
+        id: 5,
+        title: "Wearhub",
+        category: "Web Development",
+        image:Wearhub,
+        description: "Full-stack e-commerce Website Where Users Can order products in realtime  ",
+        technologies: ["React", "Node.js", "MongoDB", "Tailwind css"],
+        githubLink: "https://github.com/anasparacha85/Wearhub",
+        liveLink:"https://wearhubecom.vercel.app/"
+        
+      },
+      {
         id: 2,
         title: "SkillHub",
         category: "Mobile Development",
@@ -64,16 +75,7 @@ useEffect(()=>{
         githubLink: "https://github.com",
         liveLink: "https://beyond-seven.vercel.app/"
       },
-      {
-        id: 5,
-        title: "Wearhub",
-        category: "Web Development",
-        image:Wearhub,
-        description: "Full-stack e-commerce Website Where Users Can order products in realtime  ",
-        technologies: ["React", "Node.js", "MongoDB", "Tailwind css"],
-        githubLink: "https://github.com/anasparacha85/Wearhub",
-        
-      },
+     
       
     
   
