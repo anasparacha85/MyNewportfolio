@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Card from '@mui/material/Card';
-import { FaFacebookF, FaTwitter, FaYoutube, FaDribbble } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaYoutube,FaLink,FaInstagram,FaLinkedin } from 'react-icons/fa';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 const ContactPage = () => {
@@ -8,10 +8,10 @@ const ContactPage = () => {
         Aos.init()
     },[])
     const socials = [
-        { name: 'facebook', icon: <FaFacebookF />, href: 'https://facebook.com' },
-        { name: 'twitter', icon: <FaTwitter />, href: 'https://twitter.com' },
+        { name: 'facebook', icon: <FaFacebookF />, href: 'https://www.facebook.com/anas.amir.7311352' },
+        { name: 'Instagram', icon: <FaInstagram />, href: 'https://www.instagram.com/anasparacha223/' },
         { name: 'youtube', icon: <FaYoutube />, href: 'https://youtube.com' },
-        { name: 'dribbble', icon: <FaDribbble />, href: 'https://dribbble.com' },
+        { name: 'Linkedin', icon: <FaLinkedin />, href: 'https://www.linkedin.com/in/anas-amir-874876265/' },
       ];
   return (
     <div className="min-h-screen  text-white p-4 md:p-8 lg:p-12" data-aos="flip-up"
