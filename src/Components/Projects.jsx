@@ -20,16 +20,37 @@ useEffect(()=>{
 },[])
     // Sample project data - replace with your actual projects
     const projects = [
-      {
+       {
         id: 1,
-        title: "SKillTern WebApp",
+        title: "SkillTern WebAPP",
+        category: "Web Development",
+        image: Image,
+        description: "SKillTern is an Online Job as well as SKills Learning platform which includes users to apply for jobs ,enroll in courses,Admin to post manage and delete users jobs and instructors ",
+        technologies: ["Node js","Express js","Passport js","React js", "Tailwind","AOS","Stripe" ],
+        githubLink: "https://github.com/anasparacha85/SKillTern",
+        liveLink: "https://skilltern.vercel.app/"
+
+      },
+      {
+        id: 2,
+        title: "Internhub webapp ",
         category: "Web Development",
         image: interneeimage,
-        description: "SKillTern is an Online Job as well as SKills Learning platform which includes users to apply for jobs ,enroll in courses,Admin to post manage and delete users jobs and instructors",
+        description: "InternHub is an online Learning Management System LMS",
         technologies: ["Node js","Express js","Passport js","React js", "Tailwind","AOS" ],
         githubLink: "https://github.com/anasparacha85/AnasInternee.pk",
         liveLink: "https://anas-internee-pk.vercel.app/"
 
+      },
+      {
+        id: 3,
+        title: "Creative Agency",
+        category: "Data Visualization",
+        image: Creative,
+        description: "It is a modern designed Front End Website",
+        technologies: ["React", "AOS", "Tailwind"],
+        githubLink: "https://github.com",
+        liveLink: "https://bloodline-iota.vercel.app/"
       },
       {
         id: 5,
@@ -42,28 +63,9 @@ useEffect(()=>{
         liveLink:"https://wearhubecom.vercel.app/"
         
       },
-      {
-        id: 2,
-        title: "SkillHub",
-        category: "Mobile Development",
-        image: Image,
-        description: "SkillHub is an Online Skill  learning platform where Users can   enroll in courses ",
-        technologies: ["Node js","Express js","Passport js","React js", "Tailwind","AOS" ],
-        githubLink: "https://github.com/anasparacha85/InternnHub",
-        liveLink: "https://skillhub-woad.vercel.app/"
-
-      },
+     
     
-      {
-        id: 3,
-        title: "Creative Agency",
-        category: "Data Visualization",
-        image: Creative,
-        description: "It is a modern designed Front End Website",
-        technologies: ["React", "AOS", "Tailwind"],
-        githubLink: "https://github.com",
-        liveLink: "https://bloodline-iota.vercel.app/"
-      },
+      
       
       {
         id: 4,
