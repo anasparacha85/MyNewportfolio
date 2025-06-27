@@ -23,7 +23,7 @@ useEffect(()=>{
     const projects = [
        {
         id: 1,
-        title: "SkillTern WebAPP",
+        title: "SkillTern Webapp",
         category: "Web Development",
         image: Image,
         description: "SKillTern is an Online Job as well as SKills Learning platform which includes users to apply for jobs ,enroll in courses,Admin to post manage and delete users jobs and instructors ",
