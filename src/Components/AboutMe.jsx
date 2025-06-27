@@ -64,7 +64,7 @@ const AboutMe = () => {
 
           {/* Stats Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4" data-aos="fade-left"
-     data-aos-offset="300"
+     data-aos-offset="500"
      data-aos-easing="ease-in-sine">
             {stats.map((stat, index) => (
               <div 

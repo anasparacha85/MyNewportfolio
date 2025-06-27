@@ -12,6 +12,7 @@ import interneeimage from '../../public/interneeimage.png'
 import Aos from 'aos';
 import Image from '../../public/image.png'
 import 'aos/dist/aos.css'
+import AmazonImage from '../../public/Amazonpic.png'
  
 const Projects = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -31,15 +32,16 @@ useEffect(()=>{
         liveLink: "https://skilltern.vercel.app/"
 
       },
+
       {
         id: 2,
-        title: "Internhub webapp ",
+        title: "Amazon Real State Webapp ",
         category: "Web Development",
-        image: interneeimage,
-        description: "InternHub is an online Learning Management System LMS",
-        technologies: ["Node js","Express js","Passport js","React js", "Tailwind","AOS" ],
-        githubLink: "https://github.com/anasparacha85/AnasInternee.pk",
-        liveLink: "https://anas-internee-pk.vercel.app/"
+        image: AmazonImage,
+        description: "it is an real state application where you can book houses for buy ,for rent etc.",
+        technologies: ["php","Laravel","React js", "Tailwind","AOS" ],
+       
+        liveLink: "https://amazon-real-estate.edunation.pk/"
 
       },
       {

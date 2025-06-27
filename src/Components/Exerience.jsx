@@ -7,6 +7,36 @@ const Timeline = () => {
             Aos.init()
         },[])
   const data = [
+      {
+   
+      year: "april 2025 -present",
+      role: "Full Stack Developer  (Internship)",
+      company: "IOTFIY Solutions",
+      description:
+        "Currently Working as a Junior Full  Stack Developer Intern at IOTFIY Solutions where I am Contributing towards Exciting Projects by Developing Advanced Server Side as well as Client Side Features using MERN stack , and Nestjs..",
+        
+      icon: "work",
+    },
+     {
+   
+      year: "Dec 2024-april 2025",
+      role: "Web Developer  (On Contract)",
+      company: "Devsiom Technologies",
+      description:
+        " Worked as a Full Stack Web developer  on a Contractual role where I designed and developed and Advanced Server Side Features using Nodejs Expressjs, and  and designed and Integrated  Client side features while  contributing towards various projects  assosiated with Devsiom Technologies",
+
+      icon: "work",
+    },
+     {
+        year: "2022-present",
+        role: " Software Engineering",
+        company: "Sir Syed University of Engineering & Technologies",
+        description:
+          "Currently doing Bachelors in Software Engineering from sir syed University of Engineering & Technology with a CGPA of 3.61",
+        icon: "education",
+      },
+     
+   
     {
         year: "2022",
         role: "Intermediate(Hsc)",
@@ -15,40 +45,8 @@ const Timeline = () => {
           "I have done Hsc for govt college for men nazimabad with A-Grade",
         icon: "education",
       },
-      {
-        year: "2022-present",
-        role: " Software Engineering",
-        company: "Sir Syed University of Engineering & Technologies",
-        description:
-          "Currently doing Bachelors in Software Engineering from sir syed University of Engineering & Technology with a CGPA of 3.61",
-        icon: "education",
-      },
-      
-    {
-      year: "Oct 2024-Dec-2024",
-      role: "FRONT END WEB DEVELOPER Intern",
-      company: "HakamTechSol",
-      description:
-        "I have worked as a front End Developer(Html Css Javascript) as Intern at HakamTechsol.",
-      icon: "work",
-    },
-    {
-      year: "Dec 2024-Present",
-      role: "FRONT END DEVELOPER JOB (On Contract)",
-      company: "Devsiom Technologies",
-      description:
-        "Currently working on a project related to devsion technologies on a 2 month contract.",
-      icon: "work",
-    },
-    {
-      year: "feb 2025-present",
-      role: "MERN Stack DEVELOPER Intern",
-      company: "Internee.pk",
-      description:
-        "Currently working as a Mern Stack Developer Intern at Internee.pk where i contributes toward innovative projects confidently and sharply.",
-      icon: "work",
-    },
-    
+     
+   
    
   ];
 

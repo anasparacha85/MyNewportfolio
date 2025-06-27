@@ -47,7 +47,7 @@ const HomePage = () => {
           <p  className="mt-4 text-[16px] lg:text-[18px]    lg:mx-0">
    I'm a passionate Full Stack Developer with a strong focus on the MERN stack (MongoDB, Express, React, Node.js). With hands-on experience from frontend development internships and a MERN stack internship, I have developed a deep understanding of building scalable, responsive, and high-performance web applications.
 
-I specialize in crafting modern, intuitive, and engaging user interfaces using React.js,Nextjs and Tailwind CSS, ensuring seamless user experiences. <br /><br /> Beyond frontend, I have hands-on experience working with Node.js and Express.js, implementing RESTful APIs, authentication systems, and database management with MongoDB to create full-stack applications.
+I specialize in crafting modern, intuitive, and engaging user interfaces using React.js,Nextjs and Tailwind CSS, ensuring seamless user experiences. <br /><br /> Beyond frontend, I have hands-on experience working with Node.js , Express.js and Nest.js implementing RESTful APIs, authentication systems, and database management with sql as well as nosql databases to create full-stack applications.
 
 My approach goes beyond just writing code—I focus on optimizing performance, improving accessibility, and developing efficient solutions that align with business needs. Whether it's developing interactive UIs, building scalable backend architectures, or integrating APIs, I am always eager to take on challenges and contribute to impactful projects."
 

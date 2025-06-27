@@ -44,7 +44,7 @@ const ProjectCard = ({ project }) => (
           className="flex items-center gap-2 text-gray-700 hover:text-gray-500 transition-colors"
         >
           
-          <span>Github Link</span>  
+          <span>{!project.githubLink?"private repo (A industrial project)":"Github Link"}</span>  
         </a>
       </div>
       </div>
