@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import dark from '../../public/darkavatar.jpg';
@@ -9,14 +9,23 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import SplitText from '../Animation/SplitText';
 import ContactPage from './ContactPage';
+import BlobLoader from '../Animation/loadinganimation';
+import ThreeDropLoader from '../Animation/loadinganimation';
 
 
 const HomePage = () => {
+  const [Loading, setLoading] = useState(false)
+
   useEffect(() => {
     Aos.init();
+
   }, []);
+ 
+  
 
   return (
+    <div>
+     
     <div  className='custom-bg min-h-screen overflow-x-hidden'>
     <div className="min-h-screen flex items-center justify-center p-2 sm:p-6 lg:p-8 custom-bg">
       <div className="container mx-0 flex flex-col lg:flex-row items-center justify-between gap-8 py-12">
@@ -70,6 +79,8 @@ My approach goes beyond just writing code—I focus on optimizing performance, i
      <AboutMe/>
      <Projects/>
      <ContactPage/>
+     </div>
+
      </div>
   );
 };

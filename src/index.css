@@ -1,4 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.loader-wrapper {
+  position: relative;
+  height: 400px;
+  width: 800px;
+}
 
+.loader-bar {
+  position: absolute;
+  left: 0;
+  width: 800px;
+  height: 400px;
+  background-color: #facc15; /* Tailwind yellow-400 */
+  animation: drop 3s infinite;
+  opacity: 0;
+}
+
+.bar1 {
+  animation-delay: 0s;
+}
+
+.bar2 {
+  animation-delay: 1s;
+}
+
+.bar3 {
+  animation-delay: 2s;
+}
+
+@keyframes drop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  25% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
