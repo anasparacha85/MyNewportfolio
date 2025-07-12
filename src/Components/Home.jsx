@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaArrowRight } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import dark from '../../public/darkavatar.jpg';
 import AboutMe from './AboutMe';
 import  Projects from './Projects'
@@ -15,6 +15,7 @@ import ThreeDropLoader from '../Animation/loadinganimation';
 
 const HomePage = () => {
   const [Loading, setLoading] = useState(false)
+  const navigate=useNavigate()
 
   useEffect(() => {
     Aos.init();
@@ -65,8 +66,8 @@ My approach goes beyond just writing code—I focus on optimizing performance, i
 </p>
         
           <div className="mt-6 flex justify-center lg:justify-start">
-            <button className="px-6 py-3 text-white font-medium text-lg rounded-[30px] shadow-md border-2 border-solid border-white flex items-center relative overflow-hidden group">
-              <span className="relative z-10 "><Link to='/about'>More About Me</Link></span>
+            <button onClick={()=>navigate('/about')} className="px-6 py-3 text-white font-medium text-lg rounded-[30px] shadow-md border-2 border-solid border-white flex items-center relative overflow-hidden group">
+              <span className="relative z-10 ">More About Me</span>
               <span className="relative z-10 ml-2">
                 <FaArrowRight />
               </span>
