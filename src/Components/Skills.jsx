@@ -1,18 +1,21 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css"
+import CountUp from "../Animation/CountUp";
 const skills = [
-  { name: "HTML", percentage: 45 },
-  { name: "JavaScript", percentage: 59 },
+  { name: "HTML", percentage: 75 },
+  { name: "JavaScript", percentage: 79 },
   { name: "CSS", percentage: 60 },
   { name: "TailwindCss", percentage: 71 },
-  { name: "Reactjs", percentage: 71 },
-  { name: "Nextjs", percentage: 41 },
-  { name: "Nodejs", percentage: 63 },
-  { name: "Mongodb", percentage: 66 },
-  { name: "SQL Server", percentage: 73 },
-  { name: "mysql", percentage: 73 },
-  { name: "java ", percentage: 61 },
+  { name: "Reactjs", percentage: 76 },
+  { name: "Nextjs", percentage: 71 },
+  { name: "Nodejs", percentage: 83 },
+  {name:"Expressjs",percentage:79},
+  {name:"Nestjs" ,percentage:68},
+  { name: "Mongodb", percentage: 86 },
+  { name: "SQL Server", percentage: 93 },
+  { name: "mysql", percentage: 83 },
+  { name: "java ", percentage: 91 },
   { name: "Spring boot", percentage: 55 },
   { name: "FireBase", percentage: 45 },
   { name: "GitHub", percentage: 65 },
@@ -24,6 +27,7 @@ const skills = [
 const SkillCircle = ({ percentage, name }) => {
   const radius = 50; // Radius of the circle
   const circumference = 2 * Math.PI * radius; // Circumference of the circle
+  useEffect(()=>{})
   const dashOffset = circumference - (percentage / 100) * circumference;
 
   return (
@@ -49,7 +53,14 @@ const SkillCircle = ({ percentage, name }) => {
         />
       </svg>
       {/* Percentage */}
-      <span className="absolute text-xl font-bold text-yellow-500 pt-7 ">{percentage}%</span>
+      <span className="absolute text-xl font-bold text-yellow-500 pt-7 "><CountUp
+  from={0}
+  to={percentage}
+  separator=","
+  direction="up"
+  duration={1}
+  className="count-up-text"
+/>%</span>
       {/* Skill Name */}
       <p className="text-white">{name}</p>
     </div>
