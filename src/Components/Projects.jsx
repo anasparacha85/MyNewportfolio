@@ -96,7 +96,7 @@ useEffect(()=>{
     };
   
     return (
-        <div className="min-h-screen  text-white p-4 md:p-8" data-aos="flip-down"
+        <div className="min-h-screen overflow-x-hidden  text-white p-4 md:p-8" data-aos="flip-down"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="1500">
           <div className="max-w-6xl mx-auto">

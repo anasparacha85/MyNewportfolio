@@ -32,8 +32,9 @@ const HomePage = () => {
         {/* Left Side: Image */}
         <div 
           className="flex-1 w-full lg:w-1/2 px-4 sm:px-6 lg:px-8" 
-          data-aos="zoom-out-left"
-        >
+          data-aos="zoom-out-right"
+          
+  data-aos-duration="1500">
           <div className="relative">
             <img
               src={dark}

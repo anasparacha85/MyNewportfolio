@@ -32,8 +32,10 @@ const ContactPage = () => {
         {/* Contact Section */}
         <div className="grid md:grid-cols-2 gap-8">
           {/* Left Column */}
-          <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">DON'T BE SHY !</h2>
+          <div data-aos="fade-right"
+     data-aos-duration="2000"
+     data-aos-easing="ease-in-sine">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4" >DON'T BE SHY !</h2>
             <p className="text-gray-300 mb-8">
               Feel free to get in touch with me. I am always open to discussing new projects, 
               creative ideas or opportunities to be part of your visions.
@@ -84,7 +86,7 @@ const ContactPage = () => {
           </div>
 
           {/* Right Column - Contact Form */}
-          <div className="space-y-4">
+          <div className="space-y-4" data-aos="fade-left" data-aos-duration="2100"  data-aos-easing="ease-in-sine">
             <div className="grid md:grid-cols-3 gap-4">
               <input
                 type="text"
